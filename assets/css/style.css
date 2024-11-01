@@ -1,0 +1,146 @@
+#woocommerce_shopybot-woocommerce_disconnect:before {
+    content: "\f335";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+}
+
+#woocommerce_shopybot-woocommerce_disconnect {
+    background-color: red;
+    color: #FFFFFF;
+    border-color: rgb(255, 77, 17);
+    -webkit-box-shadow: 0 1px 0 rgb(255, 77, 17);
+    box-shadow: 0 1px 0 rgb(255, 77, 17);
+
+}
+
+#woocommerce_shopybot-woocommerce_connect:before {
+    content: "\f106";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+}
+
+#woocommerce_shopybot-woocommerce_connect {
+    background-color: royalblue;
+    color: #FFFFFF;
+}
+
+#woocommerce_shopybot-woocommerce_connect_facebook_page:before {
+    content: "\f304";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+}
+
+#woocommerce_shopybot-woocommerce_disconnect_facebook_page:before {
+    content: "\f335";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+}
+
+#woocommerce_shopybot-woocommerce_disconnect_facebook_page,
+#woocommerce_shopybot-woocommerce_connect_facebook_page {
+    background-color: #3b5998;
+    color: #FFF;
+
+    border-color: #8b9dc3;
+    -webkit-box-shadow: 0 1px 0 #8b9dc3;
+    box-shadow: 0 1px 0 #8b9dc3;
+
+}
+
+.shopybot-fb-page-name {
+    display: block;
+    font-size: 20px;
+}
+
+.shopybot-fb-page-name > span {
+    float: left;
+    margin: 10px;
+}
+
+.shopybot-fb-page-name > img {
+    float: left;
+}
+
+.shopybot-fb-buttons {
+    clear: both;
+    padding: 20px 0;
+}
+
+.shopybot-fb-buttons .button-secondary {
+    width: 200px;
+    display: block;
+    margin: 3px 0;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+}
+
+.shopybot-fb-buttons .shopybot-open-bot {
+    background-color: #9b59b6;
+    color: #FFF;
+
+    border-color: #8e44ad;
+    -webkit-box-shadow: 0 1px 0 #8e44ad;
+    box-shadow: 0 1px 0 #8e44ad;
+}
+
+.shopybot-fb-buttons .shopybot-open-bot:hover {
+    background-color: #8e44ad;
+    color: #FFF;
+
+    border-color: #8e44ad;
+    -webkit-box-shadow: 0 1px 0 #8e44ad;
+    box-shadow: 0 1px 0 #8e44ad;
+}
+
+.shopybot-fb-buttons .shopybot-open-bot:before {
+    content: "\f242";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+}
+
+.description .shopybot-well {
+    padding: 5px;
+    margin: 8px 0;
+    display: block;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+#shopybot-generate-progress {
+    display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+#shopybot-generate-progress > strong {
+    display: block;
+}
+
+.shopybot-loading {
+    float: left;
+    margin-top: -42px;
+    margin-left: -48px;
+    width: 48px;
+    height: 48px;
+    display: none;
+}

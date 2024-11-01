@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ShopyBot - E-Commerce Chatbot for Messenger\n"
+"POT-Creation-Date: 2020-04-12 19:49+0100\n"
+"PO-Revision-Date: 2020-04-12 19:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: shopybot-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wc-shopybot-integration.php:23
+msgid "Shopybot"
+msgstr "Shopybot"
+
+#: includes/class-wc-shopybot-integration.php:24
+msgid "Connect your WooCommerce shop with Facebook Messenger!"
+msgstr "Povežite svoj WooCommerce shop sA Facebook Messenger!"
+
+#: includes/class-wc-shopybot-integration.php:128
+msgid "Congratulations! You connected Facebook Page to your Bot"
+msgstr "Čestitam! Povezali ste Facebook stranicu s botom"
+
+#: includes/class-wc-shopybot-integration.php:144
+msgid "Congratulations! You disconnected Facebook Page from your Bot"
+msgstr "Čestitam! Isključili ste Facebook stranicu iz svog bota"
+
+#: includes/class-wc-shopybot-integration.php:152
+msgid ""
+"Error! Cannot disconnect Facebook Page. Please contact support@shopybot.com"
+msgstr ""
+"Pogreška! Nije moguće prekinuti vezu sa Facebook stranicom. Obratite se "
+"support@shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:171
+msgid "Connect to Facebook Page"
+msgstr "Povezivanje sa Facebook stranicom"
+
+#: includes/class-wc-shopybot-integration.php:176
+msgid ""
+"Click to connect your shop to shopybot.com<br><small class=\"shopybot-well"
+"\">This will open a ShopyBot page where you connect your Facebook page."
+"<br>If you do not have a Facebook Page - <a href=\"http://facebook.com/pages/"
+"create/?ref=shopybot\" target=\"_blank\">create it here</a></small>"
+msgstr ""
+"Kliknite da biste povezali trgovinu s shopybot.com<br><small class="
+"\"shopybot-well\">Otvorit će se ShopyBot stranica na kojoj povezujete svoju "
+"Facebook stranicu.<br>Ako nemate Facebook stranicu - <a href=\"http://"
+"facebook.com/pages/create/?ref=shopybot\" target=\"_blank\">stvoriti ga "
+"ovdje</a></small>"
+
+#: includes/class-wc-shopybot-integration.php:182
+msgid "Facebook Page"
+msgstr "Facebook stranica"
+
+#: includes/class-wc-shopybot-integration.php:185
+#, php-format
+msgid ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/> <span>%s</span></span><div class=\"shopybot-fb-"
+"buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary shopybot-"
+"open-facebook-page\">Open Facebook Page</a><br/><a target=\"_blank\" href="
+"\"%s\" class=\"button-secondary shopybot-open-bot\">Open Bot</a></div>"
+msgstr ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/><span>%s</span></span><div class=\"shopybot-fb-"
+"buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary shopybot-"
+"open-facebook-page\">Otvori Facebook stranicu</a><br/><a target=\"_blank\" "
+"href=\"%s\" class=\"button-secondary shopybot-open-bot\">Otvori bot</a></div>"
+
+#: includes/class-wc-shopybot-integration.php:203
+msgid "Disconnect Facebook Page"
+msgstr "Prekini vezu sa Facebook stranicom"
+
+#: includes/class-wc-shopybot-integration.php:208
+msgid ""
+"Click to disconnect your shop from shopybot.com.<br> This will opens a page "
+"on www.shopybot.com, disconnects from current facebook page and return you "
+"back here"
+msgstr ""
+"Kliknite da biste prekinuli vezu trgovine s shopybot.com.<br>To će otvoriti "
+"stranicu na www.shopybot.com, prekida vezu s trenutnom facebook stranicom i "
+"vratiti vas natrag ovdje"
+
+#: includes/class-wc-shopybot-integration.php:217
+#: includes/class-wc-shopybot-integration.php:245
+msgid "Export"
+msgstr "Izvoz"
+
+#: includes/class-wc-shopybot-integration.php:220
+#, php-format
+msgid ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> products ready for "
+"export</div>ShopyBot will use this URL to import products: <a target=\"_blank"
+"\" href=\"%s\">%s</a>"
+msgstr ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> proizvodi spremni za "
+"izvoz</div>ShopyBot će koristiti ovaj URL za uvoz proizvoda: <a target="
+"\"_blank\" href=\"%s\">%s</a>"
+
+#: includes/class-wc-shopybot-integration.php:228
+msgid "Re-generate Export File"
+msgstr "Ponovno generiraj izvoznu datoteku"
+
+#: includes/class-wc-shopybot-integration.php:236
+msgid ""
+"Click to re-generate Products for Export. This will take few minutes, "
+"depends on how many products you have"
+msgstr ""
+"Kliknite da biste ponovno generirali proizvode za izvoz. To će potrajati "
+"nekoliko minuta, ovisi o tome koliko proizvoda imate"
+
+#: includes/class-wc-shopybot-integration.php:239
+msgid "Do not close the browser window during generation process!"
+msgstr "Nemojte zatvarati prozor preglednika tijekom procesa generiranja!"
+
+#: includes/class-wc-shopybot-integration.php:247
+msgid "You don't have export file. Please click button to generate it"
+msgstr "Nemate izvoznu datoteku. Molimo kliknite gumb da biste ga generirali"
+
+#: includes/class-wc-shopybot-integration.php:251
+msgid "Generate Export File"
+msgstr "Generiraj izvoznu datoteku"
+
+#: includes/class-wc-shopybot-integration.php:256
+msgid ""
+"Click to generate Export File. This will take few minutes, depends on how "
+"many products you have.<br/> <div id=\"shopybot-generate-progress"
+"\"><strong>Do not close the browser window during generation process!</"
+"strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/plugins/"
+"shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>"
+msgstr ""
+"Kliknite da biste generirali izvoznu datoteku. To će potrajati nekoliko "
+"minuta, ovisi o tome koliko proizvoda imate.<br/><div id=\"shopybot-generate-"
+"progress\"><strong>Nemojte zatvarati prozor preglednika tijekom procesa "
+"generiranja!</strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-"
+"content/plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>"
+
+#: includes/class-wc-shopybot-integration.php:271
+msgid "Disconnect"
+msgstr "Izadi"
+
+#: includes/class-wc-shopybot-integration.php:277
+msgid "Click to disconnect your store from shopybot.com"
+msgstr "Kliknite da biste prekinuli vezu trgovine s shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:279
+msgid ""
+"This will delete your Bot with all the products and statistics information "
+"on shopybot.com."
+msgstr ""
+"To će izbrisati vaš Bot sa svim proizvodima i statističkim informacijama o "
+"shopybot.com."
+
+#: includes/class-wc-shopybot-integration.php:281
+msgid ""
+"WARNING! Cannot be undone! But you can connect your store one more time and "
+"import all your products as before."
+msgstr ""
+"Upozorenje! Ne može se poništiti! No, trgovinu možete povezati još jednom i "
+"uvesti sve svoje proizvode kao i prije."
+
+#: includes/class-wc-shopybot-integration.php:301
+msgid "Connect to ShopyBot!"
+msgstr "Spojite se na ShopyBot!"
+
+#: includes/class-wc-shopybot-integration.php:306
+msgid "Click to connect your store to shopybot.com platform"
+msgstr "Kliknite da biste povezali trgovinu s shopybot.com platformom"
+
+#: includes/class-wc-shopybot-integration.php:328
+msgid "Contact us"
+msgstr "Kontaktirajte nas"
+
+#: includes/class-wc-shopybot-integration.php:330
+msgid ""
+"Please contact us at <a href=\"mailto:support@shopybot.com"
+"\">support@shopybot.com</a> if you have questions or suggestions."
+msgstr ""
+"Ako imate pitanja ili prijedloge, obratite nam se na <a href=\"mailto:"
+"support@shopybot.com\">support@shopybot.com.</a>."
+
+#: includes/class-wc-shopybot-integration.php:421
+msgid "Looks like you made a mistake with the "
+msgstr "Izgleda da si pogriješio sa "
+
+#: includes/class-wc-shopybot-notices.php:16
+msgid "Congratulations! Your shop is now connected to Bot on shopybot.com!"
+msgstr "Čestitam! Vaša trgovina je sada povezana s Botom na shopybot.com!"
+
+#: includes/class-wc-shopybot-notices.php:24
+msgid ""
+"Error! Cannot connect your store to Bot on shopybot. Please contact us at "
+"support@shopybot.com if you want to connect your store."
+msgstr ""
+"Pogreška! Nije moguće povezati vašu trgovinu s Botom na shopybotu. Obratite "
+"nam se u support@shopybot.com ako želite povezati svoju trgovinu."
+
+#: includes/class-wc-shopybot-notices.php:32
+msgid ""
+"Congratulations! You disconnected your store and deleted your Bot "
+"successfully!"
+msgstr "Čestitam! Isključili ste trgovinu i uspješno izbrisali bota!"
+
+#: includes/class-wc-shopybot-notices.php:40
+msgid ""
+"Error occurred during the disconnection process. Please contact us at "
+"support@shopybot.com if you want to disconnect your store."
+msgstr ""
+"Došlo je do pogreške tijekom postupka isključivanja. Obratite nam se na "
+"support@shopybot.com ako želite prekinuti vezu s trgovinom."
+
+#: includes/class-wc-shopybot-notices.php:48
+msgid "Please check whether you have WooCommerce installed"
+msgstr "Provjerite imate li instaliran WooCommerce"
+
+#: shopybot-woocommerce.php:81
+msgid "Settings"
+msgstr "Postavke"
+
+#. Plugin Name of the plugin/theme
+msgid "ShopyBot - E-Commerce Chatbot for Messenger"
+msgstr "ShopyBot - E-Commerce Chatbot za Messenger"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.shopybot.com/connect-bot/woocommerce"
+msgstr "https://www.shopybot.com/connect-bot/woocommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Few clicks to create a Facebook Messenger Chatbot for your WooCommerce shop! "
+"Automatic products import, 8 languages supported, add product to WooCommerce "
+"cart from Messenger, fast checkout!"
+msgstr ""
+"Malo klikova za stvaranje Facebook Messenger Chatbot za svoj WooCommerce "
+"shop! Automatski uvoz proizvoda, 8 jezika podržanih, dodajte proizvod u "
+"WooCommerce košaricu iz Messengera, brzo naplata!"
+
+#. Author of the plugin/theme
+msgid "ShopyBot"
+msgstr "Shopybot"
+
+#. Author URI of the plugin/theme
+msgid "https://www.shopybot.com"
+msgstr "https://www.shopybot.com"

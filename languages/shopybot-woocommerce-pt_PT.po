@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ShopyBot - E-Commerce Chatbot for Messenger\n"
+"POT-Creation-Date: 2020-04-12 19:40+0100\n"
+"PO-Revision-Date: 2020-04-12 19:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: shopybot-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wc-shopybot-integration.php:23
+msgid "Shopybot"
+msgstr "ShopyBot"
+
+#: includes/class-wc-shopybot-integration.php:24
+msgid "Connect your WooCommerce shop with Facebook Messenger!"
+msgstr "Conecte sua loja WooCommerce com o Facebook Messenger!"
+
+#: includes/class-wc-shopybot-integration.php:128
+msgid "Congratulations! You connected Facebook Page to your Bot"
+msgstr "Parabéns! Você conectou a página do Facebook ao seu Bot"
+
+#: includes/class-wc-shopybot-integration.php:144
+msgid "Congratulations! You disconnected Facebook Page from your Bot"
+msgstr "Parabéns! Você desconectou a página do Facebook do seu Bot"
+
+#: includes/class-wc-shopybot-integration.php:152
+msgid ""
+"Error! Cannot disconnect Facebook Page. Please contact support@shopybot.com"
+msgstr ""
+"Erro! Não é possível desconectar a página do Facebook. Entre em contato com "
+"support@shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:171
+msgid "Connect to Facebook Page"
+msgstr "Conecte-se à página do Facebook"
+
+#: includes/class-wc-shopybot-integration.php:176
+msgid ""
+"Click to connect your shop to shopybot.com<br><small class=\"shopybot-well"
+"\">This will open a ShopyBot page where you connect your Facebook page."
+"<br>If you do not have a Facebook Page - <a href=\"http://facebook.com/pages/"
+"create/?ref=shopybot\" target=\"_blank\">create it here</a></small>"
+msgstr ""
+"Clique para conectar sua loja à shopybot.com<br><small class=\"shopybot-well"
+"\">Isso abrirá uma página do ShopyBot onde você conecta sua página no "
+"Facebook.<br>Se você não tem uma página do Facebook - <a href=\"http://"
+"facebook.com/pages/create/?ref=shopybot\" target=\"_blank\">crie-a aqui</a></"
+"small>"
+
+#: includes/class-wc-shopybot-integration.php:182
+msgid "Facebook Page"
+msgstr "Página do Facebook"
+
+#: includes/class-wc-shopybot-integration.php:185
+#, php-format
+msgid ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/> <span>%s</span></span><div class=\"shopybot-fb-"
+"buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary shopybot-"
+"open-facebook-page\">Open Facebook Page</a><br/><a target=\"_blank\" href="
+"\"%s\" class=\"button-secondary shopybot-open-bot\">Open Bot</a></div>"
+msgstr ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/><span>%s</span></span><div class=\"shopybot-fb-"
+"buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary shopybot-"
+"open-facebook-page\">Página aberta no Facebook</a><br/><a target=\"_blank\" "
+"href=\"%s\" class=\"button-secondary shopybot-open-bot\">Bot aberto</a></div>"
+
+#: includes/class-wc-shopybot-integration.php:203
+msgid "Disconnect Facebook Page"
+msgstr "Página desconectada do Facebook"
+
+#: includes/class-wc-shopybot-integration.php:208
+msgid ""
+"Click to disconnect your shop from shopybot.com.<br> This will opens a page "
+"on www.shopybot.com, disconnects from current facebook page and return you "
+"back here"
+msgstr ""
+"Clique para desconectar sua loja de shopybot.com.<br>Isso abrirá uma página "
+"sobre www.shopybot.com, desconecta-se da página atual do Facebook e o "
+"devolverá aqui"
+
+#: includes/class-wc-shopybot-integration.php:217
+#: includes/class-wc-shopybot-integration.php:245
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/class-wc-shopybot-integration.php:220
+#, php-format
+msgid ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> products ready for "
+"export</div>ShopyBot will use this URL to import products: <a target=\"_blank"
+"\" href=\"%s\">%s</a>"
+msgstr ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> produtos prontos para "
+"exportação</div>O ShopyBot usará esta URL para importar produtos: <a target="
+"\"_blank\" href=\"%s\">%s</a>"
+
+#: includes/class-wc-shopybot-integration.php:228
+msgid "Re-generate Export File"
+msgstr "Re-gerar arquivo de exportação"
+
+#: includes/class-wc-shopybot-integration.php:236
+msgid ""
+"Click to re-generate Products for Export. This will take few minutes, "
+"depends on how many products you have"
+msgstr ""
+"Clique para regerar produtos para exportação. Isso vai levar alguns minutos, "
+"depende de quantos produtos você tem"
+
+#: includes/class-wc-shopybot-integration.php:239
+msgid "Do not close the browser window during generation process!"
+msgstr ""
+"Clique para gerar Produtos para Exportação. Isso vai levar alguns minutos, "
+"depende de quantos produtos você tem.<br/><div id=\"shopybot-generate-"
+"progress\"><strong>Não feche a janela do navegador durante o processo de "
+"geração!</strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-"
+"content/plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>!"
+
+#: includes/class-wc-shopybot-integration.php:247
+msgid "You don't have export file. Please click button to generate it"
+msgstr ""
+"Você não tem arquivo de exportação. Por favor, clique no botão para gerá-lo"
+
+#: includes/class-wc-shopybot-integration.php:251
+msgid "Generate Export File"
+msgstr "Gerar arquivo de exportação"
+
+#: includes/class-wc-shopybot-integration.php:256
+msgid ""
+"Click to generate Export File. This will take few minutes, depends on how "
+"many products you have.<br/> <div id=\"shopybot-generate-progress"
+"\"><strong>Do not close the browser window during generation process!</"
+"strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/plugins/"
+"shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>"
+msgstr ""
+"Clique para gerar Arquivo de Exportação. Isso vai levar alguns minutos, "
+"depende de quantos produtos você tem.<br/><div id=\"shopybot-generate-"
+"progress\"><strong>Não feche a janela do navegador durante o processo de "
+"geração!</strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-"
+"content/plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>"
+
+#: includes/class-wc-shopybot-integration.php:271
+msgid "Disconnect"
+msgstr "Desligar"
+
+#: includes/class-wc-shopybot-integration.php:277
+msgid "Click to disconnect your store from shopybot.com"
+msgstr "Clique para desconectar sua loja de shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:279
+msgid ""
+"This will delete your Bot with all the products and statistics information "
+"on shopybot.com."
+msgstr ""
+"Isso excluirá seu Bot com todas as informações de produtos e estatísticas "
+"sobre shopybot.com."
+
+#: includes/class-wc-shopybot-integration.php:281
+msgid ""
+"WARNING! Cannot be undone! But you can connect your store one more time and "
+"import all your products as before."
+msgstr ""
+"Aviso! Não pode ser desfeito! Mas você pode conectar sua loja mais uma vez e "
+"importar todos os seus produtos como antes."
+
+#: includes/class-wc-shopybot-integration.php:301
+msgid "Connect to ShopyBot!"
+msgstr "Conecte-se ao ShopyBot!"
+
+#: includes/class-wc-shopybot-integration.php:306
+msgid "Click to connect your store to shopybot.com platform"
+msgstr "Clique para conectar sua loja à plataforma shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:328
+msgid "Contact us"
+msgstr "Contacte-nos"
+
+#: includes/class-wc-shopybot-integration.php:330
+msgid ""
+"Please contact us at <a href=\"mailto:support@shopybot.com"
+"\">support@shopybot.com</a> if you have questions or suggestions."
+msgstr ""
+"Entre em contato conosco por <a href=\"mailto:support@shopybot.com"
+"\">support@shopybot.com</a> se você tiver dúvidas ou sugestões."
+
+#: includes/class-wc-shopybot-integration.php:421
+msgid "Looks like you made a mistake with the "
+msgstr "Parece que você cometeu um erro com o "
+
+#: includes/class-wc-shopybot-notices.php:16
+msgid "Congratulations! Your shop is now connected to Bot on shopybot.com!"
+msgstr "Parabéns! Sua loja agora está conectada ao Bot no shopybot.com!"
+
+#: includes/class-wc-shopybot-notices.php:24
+msgid ""
+"Error! Cannot connect your store to Bot on shopybot. Please contact us at "
+"support@shopybot.com if you want to connect your store."
+msgstr ""
+"Erro! Não é possível conectar sua loja ao Bot no shopybot. Entre em contato "
+"conosco pelo support@shopybot.com se você quiser conectar sua loja."
+
+#: includes/class-wc-shopybot-notices.php:32
+msgid ""
+"Congratulations! You disconnected your store and deleted your Bot "
+"successfully!"
+msgstr "Parabéns! Você desligou sua loja e excluiu seu Bot com sucesso!"
+
+#: includes/class-wc-shopybot-notices.php:40
+msgid ""
+"Error occurred during the disconnection process. Please contact us at "
+"support@shopybot.com if you want to disconnect your store."
+msgstr ""
+"O erro ocorreu durante o processo de desconexão. Entre em contato conosco "
+"pelo support@shopybot.com se você quiser desconectar sua loja."
+
+#: includes/class-wc-shopybot-notices.php:48
+msgid "Please check whether you have WooCommerce installed"
+msgstr "Por favor, verifique se você tem WooCommerce instalado"
+
+#: shopybot-woocommerce.php:81
+msgid "Settings"
+msgstr "Configurações"
+
+#. Plugin Name of the plugin/theme
+msgid "ShopyBot - E-Commerce Chatbot for Messenger"
+msgstr "ShopyBot - Chatbot de comércio eletrônico para Messenger"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.shopybot.com/connect-bot/woocommerce"
+msgstr "https://www.shopybot.com/connect-bot/woocommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Few clicks to create a Facebook Messenger Chatbot for your WooCommerce shop! "
+"Automatic products import, 8 languages supported, add product to WooCommerce "
+"cart from Messenger, fast checkout!"
+msgstr ""
+"Poucos cliques para criar um Chatbot do Facebook Messenger para sua loja "
+"WooCommerce! Importação automática de produtos, 8 idiomas suportados, "
+"adicionar produto ao carrinho WooCommerce do Messenger, checkout rápido!"
+
+#. Author of the plugin/theme
+msgid "ShopyBot"
+msgstr "ShopyBot"
+
+#. Author URI of the plugin/theme
+msgid "https://www.shopybot.com"
+msgstr "https://www.shopybot.com"

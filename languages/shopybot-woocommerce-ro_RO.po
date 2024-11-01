@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ShopyBot - E-Commerce Chatbot for Messenger\n"
+"POT-Creation-Date: 2020-04-12 19:44+0100\n"
+"PO-Revision-Date: 2020-04-12 19:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
+"%100<=19) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: shopybot-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wc-shopybot-integration.php:23
+msgid "Shopybot"
+msgstr "Magazin de magazine"
+
+#: includes/class-wc-shopybot-integration.php:24
+msgid "Connect your WooCommerce shop with Facebook Messenger!"
+msgstr "Conectează-ți magazinul WooCommerce cu Facebook Messenger!"
+
+#: includes/class-wc-shopybot-integration.php:128
+msgid "Congratulations! You connected Facebook Page to your Bot"
+msgstr "Felicitări! Ai conectat Pagina de Facebook la Bot"
+
+#: includes/class-wc-shopybot-integration.php:144
+msgid "Congratulations! You disconnected Facebook Page from your Bot"
+msgstr "Felicitări! Ai deconectat Pagina de Facebook de la Bot"
+
+#: includes/class-wc-shopybot-integration.php:152
+msgid ""
+"Error! Cannot disconnect Facebook Page. Please contact support@shopybot.com"
+msgstr ""
+"Eroare! Imposibil de deconectat Pagina de Facebook. Vă rugăm să contactați "
+"support@shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:171
+msgid "Connect to Facebook Page"
+msgstr "Conectează-te la Pagina de Facebook"
+
+#: includes/class-wc-shopybot-integration.php:176
+msgid ""
+"Click to connect your shop to shopybot.com<br><small class=\"shopybot-well"
+"\">This will open a ShopyBot page where you connect your Facebook page."
+"<br>If you do not have a Facebook Page - <a href=\"http://facebook.com/pages/"
+"create/?ref=shopybot\" target=\"_blank\">create it here</a></small>"
+msgstr ""
+"Faceți clic pentru a conecta magazinul la shopybot.com<br><small class="
+"\"shopybot-well\">Acest lucru va deschide o pagină ShopyBot în cazul în care "
+"vă conectați pagina de Facebook.<br>Dacă nu aveți o Pagină de Facebook - <a "
+"href=\"http://facebook.com/pages/create/?ref=shopybot\" target=\"_blank"
+"\">creați-l aici</a></small>"
+
+#: includes/class-wc-shopybot-integration.php:182
+msgid "Facebook Page"
+msgstr "Facebook"
+
+#: includes/class-wc-shopybot-integration.php:185
+#, php-format
+msgid ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/> <span>%s</span></span><div class=\"shopybot-fb-"
+"buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary shopybot-"
+"open-facebook-page\">Open Facebook Page</a><br/><a target=\"_blank\" href="
+"\"%s\" class=\"button-secondary shopybot-open-bot\">Open Bot</a></div>"
+msgstr ""
+"<span class=\"shopybot-fb-page-name\"><img src=\"http://graph.facebook.com/"
+"%s/picture?type=square\"/><span>%s (în)</span></span><div class=\"shopybot-"
+"fb-buttons\"><a target=\"_blank\" href=\"%s\" class=\"button-secondary "
+"shopybot-open-facebook-page\">Deschide pagina de Facebook</a><br/><a target="
+"\"_blank\" href=\"%s\" class=\"button-secondary shopybot-open-bot"
+"\">Deschidere Bot</a></div>"
+
+#: includes/class-wc-shopybot-integration.php:203
+msgid "Disconnect Facebook Page"
+msgstr "Deconectare pagină Facebook"
+
+#: includes/class-wc-shopybot-integration.php:208
+msgid ""
+"Click to disconnect your shop from shopybot.com.<br> This will opens a page "
+"on www.shopybot.com, disconnects from current facebook page and return you "
+"back here"
+msgstr ""
+"Faceți clic pentru a deconecta magazinul de la shopybot.com.<br>Acest lucru "
+"va deschide o pagină pe www.shopybot.com, se deconectează de la pagina de "
+"Facebook curent și a vă întoarce înapoi aici"
+
+#: includes/class-wc-shopybot-integration.php:217
+#: includes/class-wc-shopybot-integration.php:245
+msgid "Export"
+msgstr "Exportă"
+
+#: includes/class-wc-shopybot-integration.php:220
+#, php-format
+msgid ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> products ready for "
+"export</div>ShopyBot will use this URL to import products: <a target=\"_blank"
+"\" href=\"%s\">%s</a>"
+msgstr ""
+"<div id=\"shopybot-num-products\"><strong>%s</strong> produse gata de "
+"export</div>ShopyBot va utiliza acest URL pentru a importa produse: <a "
+"target=\"_blank\" href=\"%s\">%s</a>"
+
+#: includes/class-wc-shopybot-integration.php:228
+msgid "Re-generate Export File"
+msgstr "Regenerare fișier de export"
+
+#: includes/class-wc-shopybot-integration.php:236
+msgid ""
+"Click to re-generate Products for Export. This will take few minutes, "
+"depends on how many products you have"
+msgstr ""
+"Faceți clic pentru a regenera Produse pentru export. Acest lucru va dura "
+"câteva minute, depinde de cât de multe produse pe care le-ați"
+
+#: includes/class-wc-shopybot-integration.php:239
+msgid "Do not close the browser window during generation process!"
+msgstr "Nu închideți fereastra browserului în timpul procesului de generare!"
+
+#: includes/class-wc-shopybot-integration.php:247
+msgid "You don't have export file. Please click button to generate it"
+msgstr ""
+"Nu aveți fișierul de export. Vă rugăm să faceți clic pe butonul pentru a "
+"genera"
+
+#: includes/class-wc-shopybot-integration.php:251
+msgid "Generate Export File"
+msgstr "Generează Fişier Export"
+
+#: includes/class-wc-shopybot-integration.php:256
+msgid ""
+"Click to generate Export File. This will take few minutes, depends on how "
+"many products you have.<br/> <div id=\"shopybot-generate-progress"
+"\"><strong>Do not close the browser window during generation process!</"
+"strong><img class=\"shopybot-loading-gif\" src=\"/wp-content/plugins/"
+"shopybot-woocommerce/assets/img/loading.gif\" src-fallback=\"/wp-content/"
+"plugins/shopybot-woocommerce/assets/img/loading.gif\" /></div>"
+msgstr ""
+"Faceți clic pentru a genera Export fișier. Acest lucru va dura câteva "
+"minute, depinde de cât de multe produse aveți.<br/><div id=\"shopybot-"
+"generate-progress\"><strong>Nu închideți fereastra browserului în timpul "
+"procesului de generare!</strong><img class=\"shopybot-loading-gif\" src=\"/"
+"wp-content/plugins/shopybot-woocommerce/assets/img/loading.gif\" src-"
+"fallback=\"/wp-content/plugins/shopybot-woocommerce/assets/img/loading.gif"
+"\" /></div>"
+
+#: includes/class-wc-shopybot-integration.php:271
+msgid "Disconnect"
+msgstr "Deconectează-te"
+
+#: includes/class-wc-shopybot-integration.php:277
+msgid "Click to disconnect your store from shopybot.com"
+msgstr "Faceți clic pentru a deconecta magazinul de la shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:279
+msgid ""
+"This will delete your Bot with all the products and statistics information "
+"on shopybot.com."
+msgstr ""
+"Acest lucru va șterge Bot cu toate produsele și informațiile statistice cu "
+"privire la shopybot.com."
+
+#: includes/class-wc-shopybot-integration.php:281
+msgid ""
+"WARNING! Cannot be undone! But you can connect your store one more time and "
+"import all your products as before."
+msgstr ""
+"Avertizare! Nu poate fi desfăcut! Dar puteți conecta magazinul încă o dată "
+"și puteți importa toate produsele ca înainte."
+
+#: includes/class-wc-shopybot-integration.php:301
+msgid "Connect to ShopyBot!"
+msgstr "Conectează-te la ShopyBot!"
+
+#: includes/class-wc-shopybot-integration.php:306
+msgid "Click to connect your store to shopybot.com platform"
+msgstr "Faceți clic pentru a conecta magazinul la platforma shopybot.com"
+
+#: includes/class-wc-shopybot-integration.php:328
+msgid "Contact us"
+msgstr "Contact"
+
+#: includes/class-wc-shopybot-integration.php:330
+msgid ""
+"Please contact us at <a href=\"mailto:support@shopybot.com"
+"\">support@shopybot.com</a> if you have questions or suggestions."
+msgstr ""
+"Vă rugăm să ne contactați la <a href=\"mailto:support@shopybot.com"
+"\">support@shopybot.com</a> dacă aveți întrebări sau sugestii."
+
+#: includes/class-wc-shopybot-integration.php:421
+msgid "Looks like you made a mistake with the "
+msgstr "Se pare că ai făcut o greșeală cu "
+
+#: includes/class-wc-shopybot-notices.php:16
+msgid "Congratulations! Your shop is now connected to Bot on shopybot.com!"
+msgstr "Felicitări! Magazinul tau este acum conectat la Bot pe shopybot.com!"
+
+#: includes/class-wc-shopybot-notices.php:24
+msgid ""
+"Error! Cannot connect your store to Bot on shopybot. Please contact us at "
+"support@shopybot.com if you want to connect your store."
+msgstr ""
+"Eroare! Nu se poate conecta magazinul la Bot pe shopybot. Vă rugăm să ne "
+"contactați la support@shopybot.com dacă doriți să vă conectați magazinul."
+
+#: includes/class-wc-shopybot-notices.php:32
+msgid ""
+"Congratulations! You disconnected your store and deleted your Bot "
+"successfully!"
+msgstr "Felicitări! V-ați deconectat magazinul și v-ați șters botul cu succes!"
+
+#: includes/class-wc-shopybot-notices.php:40
+msgid ""
+"Error occurred during the disconnection process. Please contact us at "
+"support@shopybot.com if you want to disconnect your store."
+msgstr ""
+"Eroare în timpul procesului de deconectare. Vă rugăm să ne contactați la "
+"support@shopybot.com dacă doriți să deconectați magazinul."
+
+#: includes/class-wc-shopybot-notices.php:48
+msgid "Please check whether you have WooCommerce installed"
+msgstr "Verificați dacă aveți WooCommerce instalat"
+
+#: shopybot-woocommerce.php:81
+msgid "Settings"
+msgstr "Setări"
+
+#. Plugin Name of the plugin/theme
+msgid "ShopyBot - E-Commerce Chatbot for Messenger"
+msgstr "ShopyBot - E-Commerce Chatbot pentru Messenger"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.shopybot.com/connect-bot/woocommerce"
+msgstr "https://www.shopybot.com/connect-bot/woocommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"Few clicks to create a Facebook Messenger Chatbot for your WooCommerce shop! "
+"Automatic products import, 8 languages supported, add product to WooCommerce "
+"cart from Messenger, fast checkout!"
+msgstr ""
+"Câteva clicuri pentru a crea un Facebook Messenger Chatbot pentru magazinul "
+"woocommerce! Produse automate de import, 8 limbi acceptate, adăugați produs "
+"în coșul WooCommerce din Messenger, checkout rapid!"
+
+#. Author of the plugin/theme
+msgid "ShopyBot"
+msgstr "Magazin Bot"
+
+#. Author URI of the plugin/theme
+msgid "https://www.shopybot.com"
+msgstr "https://www.shopybot.com"
